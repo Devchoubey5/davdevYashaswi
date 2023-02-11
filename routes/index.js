@@ -77,11 +77,11 @@ router.get('/biomed-academy', function(req, res) {
 router.get('/german-renal-care', function(req, res) {
   res.render('german-renal-care/german-renal-care');
 });
-router.get('/Career-List', function(req, res) {
-  res.render('Admin/Career-List');
+router.get('/Career-Master', function(req, res) {
+  res.render('Admin/Career-Master');
 });
-router.get('/Contact-List', function(req, res) {
-  res.render('Admin/Contact-List');
+router.get('/Contact-Master', function(req, res) {
+  res.render('Admin/Contact-Master');
 });
 
 
